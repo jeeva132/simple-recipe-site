@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M88,48V16a8,8,0,0,1,16,0V48a8,8,0,0,1-16,0Zm40,8a8,8,0,0,0,8-8V16a8,8,0,0,0-16,0V48A8,8,0,0,0,128,56Zm32,0a8,8,0,0,0,8-8V16a8,8,0,0,0-16,0V48A8,8,0,0,0,160,56Zm92.8,46.4L224,124v60a32,32,0,0,1-32,32H64a32,32,0,0,1-32-32V124L3.2,102.4a8,8,0,0,1,9.6-12.8L32,104V88A16,16,0,0,1,48,72H208a16,16,0,0,1,16,16v16l19.2-14.4a8,8,0,0,1,9.6,12.8ZM208,88H48v96a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16Z"
+              ></path>
+            </svg>
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <!-- <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div> -->
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>Easy and Delicious Recipes for the Whole Family</h2>
+          <p>
+            Once you've gathered your ingredients, it's time to get creative.
+            Try using a letterpress to make custom recipe cards, or use edible
+            flowers to decorate your dishes. And don't forget to take pictures
+            of your creations and share them on tumblr!
+          </p>
+          <p>
+            Whether it's heirloom tomatoes from a local farmer's market, wild
+            greens from a nearby park.
+          </p>
+          <!-- <a href="contact.html" class="btn"> contact </a> -->
+        </article>
+        <!-- needs fixes -->
+        <img
+          src="./assets/about.jpeg"
+          alt="Person Pouring Salt in Bowl"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look At This Awesomesouce!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <div class="card cardrecipe" style="width: 18rem">
+            <img
+              src="recipe-1.jpg"
+              class="card-img-top img recipe-img"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pulao</h5>
+              <p class="card-text">Prep : 15min | Cook : 5min</p>
+              <a
+                href="pulao.html"
+                class="btn btn-primary recipe text-align-center bg-secondary btn-crd"
+                >View Recipe</a
+              >
+            </div>
+          </div>
+
+          <div class="card cardrecipe" style="width: 18rem">
+            <img
+              src="recipe-2.jpg"
+              class="card-img-top img recipe-img"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Biryani</h5>
+              <p class="card-text">Prep : 15min | Cook : 5min</p>
+              <a
+                href="single-recipe.html"
+                class="btn btn-primary recipe bg-secondary btn-crd"
+                >View Recipe</a
+              >
+            </div>
+          </div>
+
+          <div class="card cardrecipe" style="width: 18rem">
+            <img
+              src="recipe-3.jpg"
+              class="card-img-top img recipe-img"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dosa</h5>
+              <p class="card-text">Prep : 15min | Cook : 5min</p>
+              <a href="dosa.html" class="btn btn-primary recipe bg-secondary"
+                >View Recipe</a
+              >
+            </div>
+          </div>
+
+          <div class="card cardrecipe" style="width: 18rem">
+            <img
+              src="recipe-4.jpg"
+              class="card-img-top img recipe-img"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Paratha</h5>
+              <p class="card-text">Prep : 15min | Cook : 5min</p>
+              <a href="paratha.html" class="btn btn-primary recipe bg-secondary"
+                >View Recipe</a
+              >
+            </div>
+          </div>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Recipes</span>
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
